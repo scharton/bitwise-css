@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    background-color: #F9F8F4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+h2 {
+    color: #5C6A75;
+    font-weight: 500;
+}
+ 
+h3 {
+    color: #A4AEB3;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+button {
+    font-size: 1.3em;
+    border: none;
+    background-color: transparent;
+    outline: thin;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+ 
+hr {
+    border: 1px solid #DDDDDD;
+}
+ 
+.modal {
+    width: 50%;
+    height: 100%;
+    margin: 4em auto;
+    border-radius: 8px;
+    border: 1px solid #DDDDDD;
+    background-color: #FEFEFE;
+}
+ 
+.modal-header {
+    padding: 10px 20px;
+    position: relative;
+}
+ 
+.modal-body {
+    text-align: center;
+    padding-top: 2em;
+}
+ 
+.modal-header i {
+    position: absolute;
+    top: 17px;
+    right: 25px;
+    font-size: 1.5em;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+ 
+.join i {
+    margin-right: .6em;
+    font-size: 1.6em;
+}
+ 
+.join {
+    background: #54AED9;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 15px 0px 15px 15px;
+}
+ 
+.inline-p {
+    display: inline-block;
+    padding-top: .2em;
+    vertical-align: top;
+}
+ 
+.disclaimer {
+    color: #BBBBBB;
+    margin: 1em;
+}
+ 
+.bold {
+    font-weight: 700;
+    padding-right: 50px;
+}
+ 
+.modal-footer {
+    padding: 20px 10px;
+    background-color: #E9ECEF;
+    border-top: 1px solid #DDDDDD;
+}
+ 
+.icon-wrapper label {
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    color: #BBBBBB;
+}
+ 
+.email-field {
+    width: 98%;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    height: 35px;
+    outline: thin;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid #DDDDDD;
+}
+ 
+.email-field:focus {
+    border: 1px solid #BBBBBB;
+}
+ 
+.icon-wrapper {
+    position: relative;
+    font-family: 'fontawesome';
+}
+ 
+.icon-wrapper:before {
+    position: absolute;
+    content: '\f003';
+    display: inline-block;
+    width: .3em;
+    top: 13px;
+    right: 28px;
+    font-size: 1.2em;
+}
+ 
+.button-action {
+    background: #F38777;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 15px 20px;
+}
