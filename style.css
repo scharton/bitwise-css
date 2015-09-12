@@ -196,5 +196,32 @@ button:hover .bottom {
     top: 15px;
 }
 
+.keyframes {
+    margin: 5em 0;
+    position: relative;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -100px;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    top: 100px;
+    left: 90%;
+    margin-left: -100px;
+    animation: movingbox 5s infinite;
+}
 
-
+@keyframes movingbox {
+    0% {left: 90%;}
+    10% {left: 10%;}
+    100% {left: 90%;}
+}
