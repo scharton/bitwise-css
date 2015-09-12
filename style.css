@@ -134,10 +134,18 @@ hr {
     border-radius: 5px;
     border:1px solid #DDDDDD;
 }
- 
-.email-field:focus + label {
+.email-field:focus {
     border: 1px solid #BBBBBB;
+}
+.email-field:focus + label {
+    color: #333333;
     transform: scale(0.8) translateY(-40px);
+}
+
+.form-label {
+    color: #BBBBBB;
+    transform-origin: center left;
+    transition: color 300ms, transform 300ms;
 }
  
 .icon-wrapper {
