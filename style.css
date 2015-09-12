@@ -60,6 +60,13 @@ hr {
     font-size: 1.5em;
     color: #CCCCCC;
     cursor: pointer;
+    transition: transform 300ms;
+    -webkit-transition: transform 300ms;
+}
+
+.modal-header i:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
  
 .join i {
