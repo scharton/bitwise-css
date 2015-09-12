@@ -135,8 +135,9 @@ hr {
     border:1px solid #DDDDDD;
 }
  
-.email-field:focus {
+.email-field:focus + label {
     border: 1px solid #BBBBBB;
+    transform: scale(0.8) translateY(-40px);
 }
  
 .icon-wrapper {
