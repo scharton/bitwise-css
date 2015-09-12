@@ -152,5 +152,33 @@ hr {
     font-size: 1.2em;
     font-weight: 300;
     color: #FFFFFF;
-    padding: 15px 20px;
+    padding: 30px 50px;
+    overflow: hidden; /* hide content outside of it */
+    position: relative; /* for the spans */
 }
+
+.content {
+    position: absolute;
+    transition: top 300ms;
+    left: 0;
+    width: 100%;
+}
+
+.top {
+    top: 5px;
+}
+
+button:hover .top {
+    top: -100px;
+}
+
+.bottom {
+    top: 100px;
+}
+
+button:hover .bottom {
+    top: 15px;
+}
+
+
+
