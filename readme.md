@@ -8,3 +8,4 @@ The files and changes are from a [Meetup about CSS animations](http://www.meetup
 * [`transform` property](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 * [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 * [Do a barrel roll](https://www.google.com/#q=do+a+barrel+roll)
+* [Raphael JS SVG library](http://raphaeljs.com)
